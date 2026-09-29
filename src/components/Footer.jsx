@@ -1,0 +1,1 @@
+export default function Footer(){return <footer>EchoGPT © 2026 | Privacy | Terms</footer>}

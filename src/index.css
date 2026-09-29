@@ -1,0 +1,13 @@
+body{margin:0;font-family:Arial;background:#f8fafc;color:#111827}
+.app{min-height:100vh}.dark{background:#111827;color:white}
+nav{display:flex;justify-content:space-between;padding:25px}
+button{background:#2563eb;color:white;border:0;border-radius:10px;padding:12px;margin:5px}
+.hero{display:grid;grid-template-columns:1fr 1fr;gap:30px;padding:60px}
+h1{font-size:48px}
+.section{padding:40px}
+.card{background:white;border-radius:20px;padding:25px;margin:20px;box-shadow:0 10px 30px #ddd}
+.dark .card{background:#1f2937}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+input{padding:12px;width:90%}
+footer{text-align:center;padding:30px}
+@media(max-width:700px){.hero{grid-template-columns:1fr;padding:25px}h1{font-size:34px}}
